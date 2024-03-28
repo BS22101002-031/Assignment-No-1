@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins",sans-serif ;
+  }
+  body{
+    justify-content: center;
+    background: orange;
+    text-align: center;
+    align-items: center;
+    color:black;
+  }
+  .box1{
+    margin-top: 20px;
+     margin-left: 170px; 
+     width:900px;
+     height:50px ;
+     background: purple;
+     color: white; 
+     border-radius: 0px;
+     padding: 20px 30px ;
+    display:flex;
+    align-items: center;
+  }
+  .sale{
+    position: absolute;
+    font-weight: 700;
+    font-size: 25px;
+    border: transparent;
+    top: 90px;
+    left: 190px;
+    color: black;
+  }
+  .sale2 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 25px;
+    border: transparent;
+    top: 100px;
+    right: 260px;
+    color: black;
+  }
+  .sale2:hover{
+    color: white;
+}
+.nav{
+  font-size: 18px;
+  font-weight: 400;
+  top: 30%;
+  left:40px;
+  color: black;
+  justify-content: space-between;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  .box2{
+    
+     margin-left: 170px; 
+     width:900px;
+     height:450px;
+     background: silver;
+     color: white; 
+     border-radius: 0px;
+     padding: 20px 30px  
+  }
+  .logo{
+    position:absolute;
+    top: 20%;
+    left: 10%;
+    text-align:left;
+    border-top-left-radius: 10%;
+    cursor: pointer;
+    justify-content: space-between;
+    margin-left:55px ;
+    color: black;
+    font-weight:300 ;
+    font-size: 20px;
+  }
+  .nav li{
+    display: inline-block;
+    padding: 0px 10px;
+  }
+  .nav li a{
+    transition: all 0.3s ease 0s;
+  }
+  .nav li a:hover{
+    color:blue ;
+  }
+  button {
+    margin-top: 0px;
+    padding: 9px 15px;
+    background-color: blue;
+    border:none ;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  button:hover{
+    background-color: rgba(0, 136, 169, 1) ;
+  }
+  .search{
+    position: absolute;
+      top: 22%;
+      right: 28%;
+  }
+  .search input {
+      margin-left: 80%; 
+      width:50%;
+      height:30px;
+      top: 20%;
+      left: 500px;
+      background:white; 
+      text-align: center;
+      border: none;
+      outline: none;
+      border: 2px solid rgba(255, 255, 255, .2);
+      border-radius: 40px;
+      font-size: 16px;
+      color: white;
+      padding: 10px 35px 10px 10px;
+      
+  }
+  .search i{
+    position: absolute;
+    top: 20%;
+    left: 82%;
+    color:black;
+}
+  img{
+    width:250px;
+    height:270px;
+    float: left;
+    border:3px solid black ;
+    margin-top: 50px;
+    display: flex;
+  }
+  .side{
+    display: flex;
+    flex-wrap: flex;
+    margin-top: 55px;
+    margin-left: 30px;
+    text-align: left;
+    color: black;
+    position: absolute;
+    top: 33%;
+    right: 30%;
+    }
+    .red{
+      color: red;
+      
+    }
+    .clr{
+      text-align: left;
+      font-size: 20px;
+      color: black;
+      position: absolute;
+      top: 60%;
+      right: 39%;
+    }
+    .size{
+      text-align: right;
+      font-size: 15px;
+      color:black;
+      position: absolute;
+      top: 60%;
+      right: 22%;
+    }
+    .size:hover{
+      color: blue;
+    }
+.image{
+  position: absolute;
+  top: 360px;
+  right: 540px;
+  size: 10px;
+  width: 50px;
+  height: 10px;
+}
+.image img{
+  height: 90px;
+  width: 190px;
+  align-items: right;
+  top: 90px;
+  right: 150px;;
+}
+    .column {
+      width: 200px;
+      border: 1px solid black;
+    }
+    

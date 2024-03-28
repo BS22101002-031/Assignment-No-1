@@ -38,11 +38,11 @@
     font-size: 25px;
     border: transparent;
     top: 100px;
-    right: 260px;
+    right: 280px;
     color: black;
   }
   .sale2:hover{
-    color: white;
+    color: black;
 }
 .nav{
   font-size: 18px;
